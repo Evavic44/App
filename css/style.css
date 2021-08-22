@@ -1,5 +1,5 @@
 :root {
-   --primary-color: #7360ff;
+   --primary-color: #4c6ca0;
    --secondary-color: orangered;
    --text-primary-color: #333333;
    --text-secondary-color: #232323ff;
@@ -33,6 +33,8 @@ h3 {
 h4 {
    color: var(--secondary-color);   
 }
+
+h5 {margin: 0.2rem 0}
 
 p {
    font-weight: 300;
@@ -69,10 +71,8 @@ body {
    align-items: center;
    justify-content: center;
    margin: 10px;
-   background: rgba(212, 211, 219, 0.1);
+   background: rgba(232, 233, 241, 0.3);
    box-shadow: 0 1px 10px 0 rgba(31, 38, 135, 0.37);
-   backdrop-filter: blur( 11.0px );
-   -webkit-backdrop-filter: blur(11.0px);
    border-right: 1px solid rgba(255, 255, 255, 0.18);
 }
 
@@ -224,7 +224,7 @@ footer img:nth-child(1) {width: 35px;}
 footer img:nth-child(2) {width: 110px;}
 footer img:nth-child(3) {width: 110px;}
 
-@media(max-width: 780px) {
+@media(max-width: 900px) {
    .social {
       display: grid;
       grid-template-columns: repeat(2, 1fr);
