@@ -1,0 +1,194 @@
+:root {
+   --primary-color: #7360ff;
+   --secondary-color: #624fcc;
+   --text-primary-color: #333333;
+   --text-secondary-color: #232323ff;
+   --bg-primary-color: #f2f2f2;
+   --bg-secondary-color: #cccccc;
+}
+
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: 'Proxima', sans-serif;
+}
+
+@font-face {
+  font-family: 'Proxima';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Proxima'), url('/Resume/font/Proxima\ Nova\ Alt\ Light.otf') format('truetype');
+  src: local('Proxima'), url('/Resume/font/Proxima\ Nova\ Alt\ Bold.otf') format('truetype');
+  src: local('Proxima'), url('/Resume/font/Proxima\ Nova\ Alt\ Regular.otf') format('truetype');
+  src: local('Proxima'), url('/Resume/font/Proxima\ Nova\ Alt\ Condensed\ Light.otf') format('truetype');
+}
+
+h3 {
+   font-weight: 600;
+   font-size: 1.5rem;
+   color: var(--primary-color);   
+}
+
+h4 {
+   color: orangered;   
+}
+
+p {
+   font-weight: 300;
+}
+
+a {
+   display: inline;
+   color: var(--secondary-color);
+   text-decoration: none;
+}
+
+body {
+   font-family: 'Proxima', sans-serif;
+   color: #333;
+   background: rgba(255, 255, 255, 0.3);   
+}
+
+.underline {
+   max-width: 1200px;
+   margin: 0 auto;
+   background: rgba(0, 0, 0, 0.2);
+   height: 1px;
+}
+
+/* Profile */
+.hero {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin: 10px;
+   background: rgba(115, 96, 255, 0.10);
+   box-shadow: 0 1px 10px 0 rgba(31, 38, 135, 0.37);
+   backdrop-filter: blur( 11.0px );
+   -webkit-backdrop-filter: blur(11.0px);
+   border-right: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.profile {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding: 2rem;
+}
+
+.profile div {
+   margin: 0 1rem;
+}
+
+.profile img {
+   width: 170px;
+   border-radius: 50%;
+}
+
+.profile h1 {
+   color: var(--text-secondary-color);
+   font-size: 2.4rem;
+   font-weight: 600;
+}
+
+.profile h2 {
+   font-size: 1.5rem;
+   font-weight: 500;
+}
+
+/* Main */
+#content {
+   display: grid;
+   grid-template-columns: 2fr 1fr;
+   padding: 1rem 0.5rem;
+}
+
+.about {
+   display: flex;
+   flex-direction: column;
+   backdrop-filter: blur(10px);
+   -webkit-backdrop-filter: blur(4px);
+   border: rgba(255, 255, 255, 0.20);
+   border-right: 1px solid #ccc;
+   line-height: 1.5;
+}
+
+.tech-skills {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   padding: 1rem;
+}
+
+.tech-skills p {
+   max-width: 250px;
+}
+
+.tech-skills ul {
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   grid-gap: 1rem 2rem;
+}
+
+/* .social-icons {
+   display: inline;
+}
+
+.social-icons a p {
+   padding-left: 7px; 
+}
+
+.about, .skills, .stack {
+   padding: 2rem 1rem;
+}
+
+.interest {
+   padding: 1rem;
+}
+
+.link a {
+   text-decoration: underline;
+}
+
+footer {
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-start;
+   background: rgba(115, 96, 255, 0.10);
+   color: #fff;
+   padding: 1rem;
+}
+
+footer img:nth-child(1) {width: 40px;}
+footer img:nth-child(2) {width: 100px;}
+footer img:nth-child(3) {width: 100px;}
+
+
+@media(max-width: 600px) {
+   .profile {
+      flex-direction: column;
+      text-align: center;
+   }
+
+   .profile .profile-bio {
+      margin: 1.2rem;
+   }
+
+   .profile-bio h1 {font-size: 2rem;}
+   .profile-bio h2 {
+      font-size: 1.2rem;
+      margin-bottom: 1rem;
+   }
+
+   .social-icons p {
+      display: none;
+   }
+
+   footer img:nth-child(1) {width: 30px;}
+   footer img:nth-child(2) {width: 70px;}
+   footer img:nth-child(3) {width: 60px;}
+} */
+
