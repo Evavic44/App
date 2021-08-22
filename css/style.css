@@ -214,9 +214,15 @@ footer {
    padding: 1rem;
 }
 
-footer img:nth-child(1) {width: 40px;}
-footer img:nth-child(2) {width: 100px;}
-footer img:nth-child(3) {width: 100px;}
+footer .org {
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+}
+
+footer img:nth-child(1) {width: 35px;}
+footer img:nth-child(2) {width: 110px;}
+footer img:nth-child(3) {width: 110px;}
 
 @media(max-width: 780px) {
    .social {
@@ -225,7 +231,6 @@ footer img:nth-child(3) {width: 100px;}
       transform: translateX(0);
    }
 }
-
 
 @media(max-width: 700px) {
    .profile {
@@ -263,5 +268,9 @@ footer img:nth-child(3) {width: 100px;}
       padding: 1rem 0.5rem;
       margin: 0;
    }
+
+   footer img:nth-child(1) {width: 33px;}
+   footer img:nth-child(2) {width: 90px;}
+   footer img:nth-child(3) {width: 90px;}
 }
 
