@@ -18,10 +18,10 @@
   font-family: 'Proxima';
   font-style: normal;
   font-weight: normal;
-  src: local('Proxima'), url('/Resume/font/Proxima\ Nova\ Alt\ Light.otf') format('truetype');
-  src: local('Proxima'), url('/Resume/font/Proxima\ Nova\ Alt\ Bold.otf') format('truetype');
-  src: local('Proxima'), url('/Resume/font/Proxima\ Nova\ Alt\ Regular.otf') format('truetype');
-  src: local('Proxima'), url('/Resume/font/Proxima\ Nova\ Alt\ Condensed\ Light.otf') format('truetype');
+  src: local('Proxima'), url('/font/Proxima\ Nova\ Alt\ Light.otf') format('truetype');
+  src: local('Proxima'), url('/font/Proxima\ Nova\ Alt\ Bold.otf') format('truetype');
+  src: local('Proxima'), url('/font/Proxima\ Nova\ Alt\ Regular.otf') format('truetype');
+  src: local('Proxima'), url('/font/Proxima\ Nova\ Alt\ Condensed\ Light.otf') format('truetype');
 }
 
 h3 {
