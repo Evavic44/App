@@ -40,7 +40,7 @@ p {
 
 a {
    display: inline;
-   color: var(--secondary-color);
+   color: orangered;
    text-decoration: none;
 }
 
@@ -63,7 +63,7 @@ body {
    align-items: center;
    justify-content: center;
    margin: 10px;
-   background: rgba(115, 96, 255, 0.10);
+   background: rgba(164, 159, 202, 0.1);
    box-shadow: 0 1px 10px 0 rgba(31, 38, 135, 0.37);
    backdrop-filter: blur( 11.0px );
    -webkit-backdrop-filter: blur(11.0px);
